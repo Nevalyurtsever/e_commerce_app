@@ -4,7 +4,6 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'core/app_router.dart';
 import 'core/theme/app_theme.dart';
-import 'flavors.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class App extends ConsumerWidget {
@@ -20,7 +19,7 @@ class App extends ConsumerWidget {
 
           return MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            title: F.title,
+            title: "E commerce app",
             theme: AppTheme.light,
             darkTheme: AppTheme.dark,
             themeMode:

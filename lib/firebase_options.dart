@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart'
 ///
 /// Example:
 /// ```dart
-/// import 'firebase_options_dev.dart';
+/// import 'firebase_options_stage.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
@@ -44,49 +44,45 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAvAyVM04fTN5f1yYLDryQ_gcqYM-Z7d7Q',
-    appId: '1:303636925271:web:02c89383b2efd81e2b8c12',
-    messagingSenderId: '303636925271',
-    projectId: 'wholesaler-dev',
-    authDomain: 'wholesaler-dev.firebaseapp.com',
+    apiKey: 'AIzaSyD3EU5VV_pKChsQwC2MWCfK4UAIoP2eCrI',
+    appId: '1:735972555882:web:c8611b90e9ad0c55ba1e13',
+    messagingSenderId: '735972555882',
+    projectId: 'enfa-stage',
+    authDomain: 'enfa-stage.firebaseapp.com',
     databaseURL:
-        'https://wholesaler-dev-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'wholesaler-dev.appspot.com',
+        'https://enfa-stage-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'enfa-stage.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBK4IjI1ggo5L8uaZd9jdKw-Nc3NpJLkCY',
-    appId: '1:303636925271:android:4d080ac38c588e002b8c12',
-    messagingSenderId: '303636925271',
-    projectId: 'wholesaler-dev',
+    apiKey: 'AIzaSyB9ohJLXPSJY_IDNWCc6RW8XI3ROg4Nirg',
+    appId: '1:735972555882:android:6e769e33472a1cbcba1e13',
+    messagingSenderId: '735972555882',
+    projectId: 'enfa-stage',
     databaseURL:
-        'https://wholesaler-dev-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'wholesaler-dev.appspot.com',
+        'https://enfa-stage-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'enfa-stage.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAjcRkp3IFn3WZnjS7yAZw67FH26GtAa_M',
-    appId: '1:303636925271:ios:ac4619535a9689272b8c12',
-    messagingSenderId: '303636925271',
-    projectId: 'wholesaler-dev',
+    apiKey: 'AIzaSyAnj1nJIwUN2r-TsS-_xg5X0pHSr-pYraM',
+    appId: '1:735972555882:ios:807d5855df53628aba1e13',
+    messagingSenderId: '735972555882',
+    projectId: 'enfa-stage',
     databaseURL:
-        'https://wholesaler-dev-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'wholesaler-dev.appspot.com',
-    iosClientId:
-        '303636925271-qhraqarsnta7f4gs1voqrhmvulntd54j.apps.googleusercontent.com',
-    iosBundleId: 'com.wholesaler.dev',
+        'https://enfa-stage-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'enfa-stage.appspot.com',
+    iosBundleId: 'com.enfa.stage',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAjcRkp3IFn3WZnjS7yAZw67FH26GtAa_M',
-    appId: '1:303636925271:ios:ac4619535a9689272b8c12',
-    messagingSenderId: '303636925271',
-    projectId: 'wholesaler-dev',
+    apiKey: 'AIzaSyAnj1nJIwUN2r-TsS-_xg5X0pHSr-pYraM',
+    appId: '1:735972555882:ios:807d5855df53628aba1e13',
+    messagingSenderId: '735972555882',
+    projectId: 'enfa-stage',
     databaseURL:
-        'https://wholesaler-dev-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'wholesaler-dev.appspot.com',
-    iosClientId:
-        '303636925271-qhraqarsnta7f4gs1voqrhmvulntd54j.apps.googleusercontent.com',
-    iosBundleId: 'com.wholesaler.dev',
+        'https://enfa-stage-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'enfa-stage.appspot.com',
+    iosBundleId: 'com.enfa.stage',
   );
 }
